@@ -7,8 +7,10 @@ def roll_call_dwarves(array)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  array.map do |word|
+    word.capitalize << !
+  end
 end
 
 def long_planeteer_calls# code an argument here
