@@ -28,3 +28,4 @@ def find_the_cheese(array)
 new_array = array.find(ifnone = nil) do |word|
   cheese_types.include?(word)
 end
+end
